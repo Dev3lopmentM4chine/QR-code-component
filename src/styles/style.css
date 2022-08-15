@@ -2,53 +2,65 @@
 
 html body{
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
     max-width: 1440px;
     margin: 0 auto;
+    height: 692px;
+    max-height: 692px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    row-gap: 80px;
     align-items: center;
+    justify-content: center
 }
 
 .main{
     background-color: hsl(0, 0%, 100%);
-    padding: 10px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     row-gap: 30px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
 }
-.main .main-img{
+.main .box-img{
     overflow: hidden;
-    background-color: blue;
-    width: 300px;
-    height: 300px;
-    max-width: 300px;
-    max-height: 300px;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    margin-top: 19px;
+}
+.main .box-img img{
+    width: 270px;
+    height: 270px;
     border-radius: 10px;
 }
-img{
-    width: 300px;
-    height: 300px;
-    max-width: 300px;
-    max-height: 300px;
+.main .box-paragraph{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    max-width: 245px;
 }
-.main .main-box{
+.main .box-paragraph .paragraph-One{
+    font-size: 21px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.main .box-paragraph .paragraph-Two{
     font-size: 15px;
-    width: 300px;
-    height: 100px;
-    max-width: 300px;
-    max-height: 100px;
-    border-radius: 10px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
-.main .main-box-paragraph{}
+
 
 .attribution {
-    font-size: 11px;
+    font-size: 15px;
     text-align: center;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
