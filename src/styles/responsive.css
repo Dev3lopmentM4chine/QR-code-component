@@ -1,0 +1,12 @@
+@media screen and (max-width: 450px) {
+    .main{
+        max-width: 300px;
+        max-height: 450px;
+    }
+    .attribution{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        font-size: 15px;
+    }
+}

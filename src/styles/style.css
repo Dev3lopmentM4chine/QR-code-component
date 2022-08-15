@@ -53,14 +53,16 @@ html body{
     font-weight: 400;
     color: hsl(220, 15%, 55%);
 }
-
-
 .attribution {
     font-size: 15px;
     text-align: center;
+    display: flex;
+    column-gap: 5px;
 }
-
-.attribution a {
+.attribution p {
+    display: inline-block;
+}
+.attribution p a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
 }
