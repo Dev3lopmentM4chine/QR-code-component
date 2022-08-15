@@ -1,7 +1,33 @@
 @media screen and (max-width: 450px) {
+    
+    html body{
+        height: 700px;
+        max-height: 1000px;
+    }
+    
     .main{
-        max-width: 300px;
-        max-height: 450px;
+        margin-top: 100px;
+        width: 85%;
+        height: 85%;
+    }
+    .main .box-img{
+        width: 85%;
+        height: 60%;
+        background-color: aqua;
+    }
+    .main .box-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .main .box-paragraph{
+        row-gap: 30px;
+        max-width: 321px;
+    }
+    .main .box-paragraph .paragraph-One{
+        font-size: 27px;
+    }
+    .main .box-paragraph .paragraph-Two{
+        font-size: 18px;
     }
     .attribution{
         display: flex;
