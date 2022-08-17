@@ -1,66 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 html body{
-    font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     max-width: 1440px;
+    height: 695px;
+    max-height: 695px;
     margin: 0 auto;
-    height: 692px;
-    max-height: 692px;
     display: flex;
     flex-direction: column;
-    row-gap: 80px;
+    text-align: center;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center
 }
-
 .main{
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    row-gap: 30px;
-    width: 300px;
-    height: 450px;
+    row-gap: 40px;
+    height: 500px;
+    width: 332px;
     border-radius: 10px;
 }
 .main .box-img{
     overflow: hidden;
-    width: 270px;
-    height: 270px;
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
-    margin-top: 26px;
+    margin-top: 15px;
 }
 .main .box-img img{
-    width: 270px;
-    height: 270px;
-    border-radius: 10px;
+    width: 300px;
+    height: 300px;
 }
 .main .box-paragraph{
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
-    max-width: 245px;
+    row-gap: 20px;
+    width: 79%;
+    max-width: 79%;
+    font-size: 15px;
+    /* background-color: cadetblue; */
 }
 .main .box-paragraph .paragraph-One{
-    font-size: 21px;
-    font-weight: 700;
     color: hsl(218, 44%, 22%);
+    font-size: 1.438rem;
+    font-weight: 700;
 }
 .main .box-paragraph .paragraph-Two{
-    font-size: 15px;
-    font-weight: 400;
     color: hsl(220, 15%, 55%);
+    font-size: 1rem;
 }
 .attribution {
-    font-size: 15px;
-    text-align: center;
     display: flex;
+    flex-direction: row;
     column-gap: 5px;
-}
-.attribution p {
-    display: inline-block;
+    text-align: center;
 }
 .attribution p a {
     color: hsl(228, 45%, 44%);
