@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
 html body{
+    font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     max-width: 1440px;
     height: 695px;
@@ -51,6 +52,7 @@ html body{
 .main .box-paragraph .paragraph-Two{
     color: hsl(220, 15%, 55%);
     font-size: 1rem;
+    font-weight: 200;
 }
 .attribution {
     display: flex;
