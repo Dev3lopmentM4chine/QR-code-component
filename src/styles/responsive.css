@@ -1,5 +1,29 @@
-@media screen and (max-width: 440px) {
-    
+@media screen and (max-width: 435px) {
+
+    .attribution{
+        flex-direction: column;
+        row-gap: 5px;
+    }
+}
+@media screen and (max-width: 357px) {
+    .main{
+        width: 90%;
+        row-gap: 5px;
+    }
+    .main .box-img{
+        overflow: hidden;
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+    }
+    .main .box-img img{
+        border-radius: 10px;
+        width: 90%;
+        height: 90%;
+    }
+    .main .box-paragraph{
+        margin-bottom: 40px;
+    }
     .attribution{
         flex-direction: column;
         row-gap: 5px;
