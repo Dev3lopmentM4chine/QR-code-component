@@ -24,6 +24,12 @@
     .main .box-paragraph{
         margin-bottom: 40px;
     }
+    .main .box-paragraph .paragraph-One{
+        font-size: 1.300rem;
+    }
+    .main .box-paragraph .paragraph-Two{
+        font-size: 0.900rem;
+    }
     .attribution{
         flex-direction: column;
         row-gap: 5px;
